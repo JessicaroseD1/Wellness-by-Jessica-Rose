@@ -30,20 +30,19 @@ h2 {
 
 /* navigation links  */
 
-menu {
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-menu li {
+#menu li {
     float: right;
     list-style-type: none;
-    margin-right: none;
+    margin-right: 30px;
 }
 
-menu a {
+#menu a {
     text-decoration: none;
-    color: inherit;
 }
 
 #menu,
@@ -53,4 +52,16 @@ menu a {
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* main image */
+
+#beach-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/stream-g11b6f487d_1280.jpg') no-repeat center center;
 }
