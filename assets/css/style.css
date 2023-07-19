@@ -25,7 +25,8 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 280%
+    font-size: 280%;
+    margin-left: 15px;
 }
 
 /* navigation links  */
@@ -43,6 +44,7 @@ h2 {
 
 #menu a {
     text-decoration: none;
+    color: inherit;
 }
 
 #menu,
@@ -58,10 +60,71 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* main image */
+/*  Beach image and cover text */
 
-#beach-image {
+#beach {
     height: 600px;
     width: 100%;
-    background: url('../images/stream-g11b6f487d_1280.jpg') no-repeat center center;
+    background: url('../images/stream-g11b6f487d_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
+
+#beach-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text #cover-text h2 {
+    color: #ffff
+}
+
+#cover-text h2 {
+    font-size: 300%;
+    font-family: Lato, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 4px;
+    color: rgba(255, 228, 196, 0.74);
+
+    width: 800px;
+    height: 300px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(56, 53, 53, 0.4);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+}
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: auto;
+    background-color: pink
