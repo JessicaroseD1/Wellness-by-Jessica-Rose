@@ -65,7 +65,7 @@ h2 {
 #beach {
     height: 600px;
     width: 100%;
-    background: url('../images/stream-g11b6f487d_1280.jpg');
+    background: url('../images/stream-g1f92bd35e_1280.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -75,8 +75,9 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
+    font-size: 1.5em;
     position: relative;
+
 }
 
 #cover-text #cover-text h2 {
@@ -91,19 +92,22 @@ h2 {
     letter-spacing: 4px;
     color: rgba(255, 228, 196, 0.74);
 
-    width: 800px;
+    width: 900px;
     height: 300px;
+    margin-top: 700px;
+    margin-right: 700px;
+
 
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: px;
     background-color: rgba(56, 53, 53, 0.4);
 
     bottom: 30px;
     right: 150px;
 
     position: absolute;
-
 }
+
 
 #club-ethos {
     height: 600px;
@@ -112,19 +116,81 @@ h2 {
 #left-about {
     padding-top: 30px;
     width: 33%;
+    height: 400px;
     float: left;
-    background-color: blue;
+    background-color: rgb(196, 178, 155, .6);
+    color: black;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
+    height: 400px;
     float: right;
-    background-color: silver;
+    background-color: rgb(196, 178, 155, .6);
+    color: black;
 }
 
 #center-about {
     padding-top: 30px;
     width: 33%;
     margin: auto;
-    background-color: pink
+    background-color: auto;
+    font: black;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 60px;
+    font-size: 1.5em;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: Left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 60px;
+    font-size: 1.5em;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#welcome {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 200%
+}
+
+#circle-container {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/yoga-g230633fb2_1920.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%
+}
