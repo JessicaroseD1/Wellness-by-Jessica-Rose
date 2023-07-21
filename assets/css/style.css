@@ -94,8 +94,8 @@ h2 {
 
     width: 900px;
     height: 300px;
-    margin-top: 700px;
-    margin-right: 700px;
+    margin-top: 900px;
+    margin-right: 900px;
 
 
     padding-top: 40px;
@@ -118,7 +118,6 @@ h2 {
     width: 33%;
     height: 400px;
     float: left;
-    background-color: rgb(196, 178, 155, .6);
     color: black;
 }
 
@@ -127,13 +126,13 @@ h2 {
     width: 33%;
     height: 400px;
     float: right;
-    background-color: rgb(196, 178, 155, .6);
     color: black;
 }
 
 #center-about {
     padding-top: 30px;
     width: 33%;
+    height: 400px;
     margin: auto;
     background-color: auto;
     font: black;
