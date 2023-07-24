@@ -126,25 +126,6 @@ h2 {
     margin: 0 auto;
 }
 
-
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    height: 400px;
-    float: right;
-    color: black;
-}
-
-#center-about {
-    padding-top: 30px;
-    width: 33%;
-    height: 400px;
-    margin: auto;
-    background-color: auto;
-    font: black;
-}
-
 .left-about-heading {
     width: 60%;
     float: center;
@@ -156,6 +137,10 @@ h2 {
 }
 
 .left-about-heading h2 {
+    text-align: center;
+}
+
+.left-about-heading p {
     text-align: center;
 }
 
@@ -207,7 +192,11 @@ h2 {
 }
 
 #time h2 {
-    color: white
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 auto;
+
 }
 
 table {
@@ -217,6 +206,7 @@ table {
     height: 50%;
     padding: 0 0 0 2rem;
     border-collapse: collapse;
+    font-size: 2em;
 }
 
 th,
