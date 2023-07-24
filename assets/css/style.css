@@ -112,9 +112,6 @@ h2 {
 #club-ethos {
     height: 600px;
     background-color: rgba(116, 90, 90, 0.637);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -122,11 +119,14 @@ h2 {
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 100%;
     height: 400px;
-    float: left;
+    float: center;
     color: black;
+    margin: 0 auto;
 }
+
+
 
 #right-about {
     padding-top: 30px;
@@ -147,33 +147,18 @@ h2 {
 
 .left-about-heading {
     width: 60%;
-    float: right;
+    float: center;
     line-height: 30px;
     clear: both;
     margin-bottom: 60px;
     font-size: 1.5em;
+    margin: 0 auto;
 }
 
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
+.left-about-heading h2 {
+    text-align: center;
 }
 
-.right-about-heading {
-    width: 60%;
-    float: Left;
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 60px;
-    font-size: 1.5em;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
 
 #welcome {
     text-align: center;
@@ -192,14 +177,6 @@ hr {
     margin: 0 auto;
 }
 
-#circle-cover-bg {
-    background: url('../images/yoga-g230633fb2_1920.jpg');
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: right;
-    border-radius: 50%
-}
 
 /* times and locations */
 
@@ -233,17 +210,19 @@ hr {
     color: white
 }
 
-#table-time {
+table {
     width: 50%;
     border: 1px solid;
     margin: 0 auto;
     height: 50%;
     padding: 0 0 0 2rem;
+    border-collapse: collapse;
 }
 
+th,
+td {
+    border: 1px solid black;
 
-th {
-    height: 50%
 }
 
 /* footer and social networks */
@@ -351,7 +330,7 @@ footer {
     .left-about-heading h2,
     .right-about-heading h2 {
         width: 100%;
-        text-align: center;
+        text-align: z center;
     }
 
     .left-about-heading p,
