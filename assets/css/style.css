@@ -266,7 +266,7 @@ footer {
 
 /* Media queries */
 
-/* For different screen sizes */
+/* For different screen sizes at 1200px */
 
 @media screen and (max-width:1200px) {
     #club-ethos {
@@ -299,3 +299,13 @@ footer {
         display: none;
     }
 }
+
+/* For different screen sizes at 950px */
+
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin: left 30px;
+        line-height: 25px;
+    }
