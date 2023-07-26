@@ -69,44 +69,10 @@ h2 {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-}
-
-#beach-outer {
-    height: 600px;
-    width: 100%;
     overflow: hidden;
     font-size: 1.5em;
     position: relative;
 
-}
-
-#cover-text #cover-text h2 {
-    color: #ffff
-}
-
-#cover-text h2 {
-
-    font-size: 300%;
-    font-family: Lato, sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 4px;
-    color: rgba(255, 255, 255, 0.685);
-
-    width: 900px;
-    height: 300px;
-
-
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    background-color: rgba(56, 53, 53, 0.4);
-
-    top: 50%;
-    left: 50%;
-
-
-    position: absolute;
 }
 
 /*  Club ethos sesction */
@@ -244,10 +210,8 @@ td {
     position: center;
 }
 
-div,
 iframe {
-    width: 1500px;
-    height: 800px;
+    width: 100%;
     margin: 0 auto;
     display: block;
 }
@@ -292,16 +256,32 @@ footer {
 #sign-up {
     background: rgba(185, 168, 181, 0.658);
     clear: both;
+    height: 800px;
 }
 
-label,
-input {
-    display: block
+
+.contact-form {
+    display: block;
+    width: 100px;
+    height: 200px;
+    padding: 5px;
 }
 
-label {
-    margin-bottom: 5px;
+/*  submission thank you message */
+
+#thank-you {
+    font-size: 1em;
+    background-color: rgba(185, 168, 181, 0.658);
+    clear: both;
+    max-height: 100%;
 }
+
+#feedback-socials {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 
 
 /* Media queries */
@@ -347,63 +327,6 @@ label {
     }
 }
 
-/* For different screen sizes at 950px wide and down */
-
-@media screen and (max-width:950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin: left 30px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        left: none;
-    }
-
-    #club-ethos {
-        width: 100%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 100%;
-        text-align: z center;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    #photos {
-        column-count: 3;
-    }
-
-    .video-wrapper {
-
-        position: relative;
-        padding-bottom: 20%;
-        height: 0;
-    }
-
-    .videowrapper iframe {
-        position: absolute;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-    }
-}
-
-
 /* For different screen sizes at 800px wide and down */
 
 @media screen and (max-width: 800px) {
@@ -411,71 +334,78 @@ label {
         column-count: 2;
     }
 
-    .videowrapper iframe {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        height: 100%;
+    iframe {
         width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        display: block;
 
-        /* For different screen sizes at 576px minimum width */
+    }
+
+    .video-wrapper {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        padding-top: 75%;
+    }
+}
+
+/* For different screen sizes at 576px minimum width */
 
 
-        @media (min-width: 576px) {
+@media (min-width: 576px) {
 
-            #photos {
-                column-count: 2;
-            }
+    #photos {
+        column-count: 2;
+    }
 
 
-            @media (min-width: 768px) {
-                /* all our media queries that we want to take affect
+    @media (min-width: 768px) {
+        /* all our media queries that we want to take affect
 	   from 768px and up go here and this is normally for screens of
 	   medium to large sizes */
-            }
+    }
 
-            @media (min-width: 992px) {
-                /* all our media queries that we want to take affect
+    @media (min-width: 992px) {
+        /* all our media queries that we want to take affect
 	   from 992px and up go here and this is normally for screens of
 	   large to extra large sizes */
-            }
+    }
 
-            @media (min-width: 1200px) {
-                /* all our media queries that we want to take affect
+    @media (min-width: 1200px) {
+        /* all our media queries that we want to take affect
 	   from 1200px and up go here and this is normally for screens of
 	   extra large sizes and up */
-            }
+    }
 
 
 
 
-            /* Sign up pages */
+    /* Sign up pages */
 
-            #sign-up {
-                display: table;
-                color: black;
-                font: black
-            }
+    #sign-up {
+        display: table;
+        color: black;
+        font: black
+    }
 
-            form.form-example {
-                display: table;
-                color: black;
-                font: black
-            }
+    form.form-example {
+        display: table;
+        color: black;
+        font: black
+    }
 
-            div.form-example {
-                display: table-row;
-            }
+    div.form-example {
+        display: table-row;
+    }
 
-            label,
-            input {
-                display: table-cell;
-                margin-bottom: 10px;
-            }
+    label,
+    input {
+        display: table-cell;
+        margin-bottom: 10px;
+    }
 
-            label {
-                padding-right: 10px;
-            }
-        }
+    label {
+        padding-right: 10px;
+    }
+}
