@@ -350,62 +350,31 @@ footer {
     }
 }
 
-/* For different screen sizes at 576px minimum width */
+/* Sign up pages */
 
+#sign-up {
+    display: table;
+    color: black;
+    font: black
+}
 
-@media (min-width: 576px) {
+form.form-example {
+    display: table;
+    color: black;
+    font: black
+}
 
-    #photos {
-        column-count: 2;
-    }
+div.form-example {
+    display: table-row;
+}
 
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
 
-    @media (min-width: 768px) {
-        /* all our media queries that we want to take affect
-	   from 768px and up go here and this is normally for screens of
-	   medium to large sizes */
-    }
-
-    @media (min-width: 992px) {
-        /* all our media queries that we want to take affect
-	   from 992px and up go here and this is normally for screens of
-	   large to extra large sizes */
-    }
-
-    @media (min-width: 1200px) {
-        /* all our media queries that we want to take affect
-	   from 1200px and up go here and this is normally for screens of
-	   extra large sizes and up */
-    }
-
-
-
-
-    /* Sign up pages */
-
-    #sign-up {
-        display: table;
-        color: black;
-        font: black
-    }
-
-    form.form-example {
-        display: table;
-        color: black;
-        font: black
-    }
-
-    div.form-example {
-        display: table-row;
-    }
-
-    label,
-    input {
-        display: table-cell;
-        margin-bottom: 10px;
-    }
-
-    label {
-        padding-right: 10px;
-    }
+label {
+    padding-right: 10px;
+}
 }
