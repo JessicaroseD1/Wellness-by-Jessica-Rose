@@ -85,29 +85,31 @@ h2 {
 }
 
 #cover-text h2 {
+
     font-size: 300%;
     font-family: Lato, sans-serif;
     text-transform: capitalize;
-    text-align: center;
     letter-spacing: 4px;
     color: rgba(255, 255, 255, 0.685);
 
     width: 900px;
     height: 300px;
-    margin-top: 820px;
-    margin-right: 820px;
 
 
-    padding-top: 40px;
-    padding-left: px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
     background-color: rgba(56, 53, 53, 0.4);
 
-    bottom: 30px;
-    right: 150px;
+    top: 50%;
+    left: 50%;
+
 
     position: absolute;
 }
 
+/*  Club ethos sesction */
 
 #club-ethos {
     height: 600px;
@@ -193,11 +195,18 @@ h2 {
 }
 
 #time h2 {
-    color: white;
+    color: black;
     font-size: 2.5em;
     text-align: center;
     margin: 0 auto;
 
+}
+
+#time h3 {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
 }
 
 table {
@@ -213,30 +222,34 @@ table {
 th,
 td {
     border: 1px solid black;
-
-
 }
 
 /* Yoga video from youtube */
 
 #yoga-video {
-    height: 300px;
-    width: 300px;
-    margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    object-fit: cover;
-
-}
-
-video {
-    width: 800px;
-    height: 400px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgba(185, 168, 181, 0.425);
+    position: center;
+    margin: auto;
 }
 
 #yoga-video h2 {
+    text-align: center;
     margin: 0 auto;
     width: 100%
+}
+
+#video-about-heading {
+    position: center;
+}
+
+div,
+iframe {
+    width: 1500px;
+    height: 800px;
+    margin: 0 auto;
+    display: block;
 }
 
 /* footer and social networks */
@@ -272,6 +285,24 @@ footer {
 #photos>img {
     width: 100%;
 }
+
+
+/* Sign up form styles */
+
+#sign-up {
+    background: rgba(185, 168, 181, 0.658);
+    clear: both;
+}
+
+label,
+input {
+    display: block
+}
+
+label {
+    margin-bottom: 5px;
+}
+
 
 /* Media queries */
 
@@ -357,17 +388,94 @@ footer {
         column-count: 3;
     }
 
+    .video-wrapper {
+
+        position: relative;
+        padding-bottom: 20%;
+        height: 0;
+    }
+
+    .videowrapper iframe {
+        position: absolute;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
 }
 
-/* For different screen sizes at 950px wide and down */
+
+/* For different screen sizes at 800px wide and down */
 
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
     }
 
-    /* Sign up pages */
+    .videowrapper iframe {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
 
-    #sign-up {
-        font-size: 2em;
-    }
+        /* For different screen sizes at 576px minimum width */
+
+
+        @media (min-width: 576px) {
+
+            #photos {
+                column-count: 2;
+            }
+
+
+            @media (min-width: 768px) {
+                /* all our media queries that we want to take affect
+	   from 768px and up go here and this is normally for screens of
+	   medium to large sizes */
+            }
+
+            @media (min-width: 992px) {
+                /* all our media queries that we want to take affect
+	   from 992px and up go here and this is normally for screens of
+	   large to extra large sizes */
+            }
+
+            @media (min-width: 1200px) {
+                /* all our media queries that we want to take affect
+	   from 1200px and up go here and this is normally for screens of
+	   extra large sizes and up */
+            }
+
+
+
+
+            /* Sign up pages */
+
+            #sign-up {
+                display: table;
+                color: black;
+                font: black
+            }
+
+            form.form-example {
+                display: table;
+                color: black;
+                font: black
+            }
+
+            div.form-example {
+                display: table-row;
+            }
+
+            label,
+            input {
+                display: table-cell;
+                margin-bottom: 10px;
+            }
+
+            label {
+                padding-right: 10px;
+            }
+        }
