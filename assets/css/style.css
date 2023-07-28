@@ -62,10 +62,10 @@ h2 {
 
 /*  Beach image and cover text */
 
-#beach {
+#hero {
     height: 600px;
     width: 100%;
-    background: url('../images/stream-g1f92bd35e_1280.jpg');
+    background: url('../images/hero\ image.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -146,23 +146,17 @@ h2 {
 
 #time div {
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 20%;
-    height: 200px;
+    background-color: rgba(185, 168, 181, 0.658);
     float: center;
-    padding-top: 30px;
-    padding-left: 10px;
     text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
     margin: 0 auto;
-
-
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
 }
 
 #time h2 {
     color: black;
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
     margin: 0 auto;
 
@@ -170,24 +164,9 @@ h2 {
 
 #time h3 {
     color: black;
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-align: center;
     margin: 0 auto;
-}
-
-table {
-    width: 50%;
-    border: 1px solid;
-    margin: 0 auto;
-    height: 50%;
-    padding: 0 0 0 2rem;
-    border-collapse: collapse;
-    font-size: 2em;
-}
-
-th,
-td {
-    border: 1px solid black;
 }
 
 /* Yoga video from youtube */
@@ -376,5 +355,4 @@ input {
 
 label {
     padding-right: 10px;
-}
 }
