@@ -89,14 +89,12 @@ h2 {
     padding-top: 30px;
     width: 100%;
     height: 400px;
-    float: center;
     color: black;
     margin: 0 auto;
 }
 
 .left-about-heading {
     width: 60%;
-    float: center;
     line-height: 30px;
     clear: both;
     margin-bottom: 60px;
@@ -145,7 +143,6 @@ h2 {
 #time div {
     color: white;
     background-color: rgba(185, 168, 181, 0.658);
-    float: center;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 0.5%;
@@ -178,23 +175,18 @@ h2 {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: rgba(185, 168, 181, 0.425);
-    position: center;
     margin: auto;
 }
 
 #yoga-info h2 {
     text-align: center;
     margin: 0 auto;
-    width: 100% fo
+    width: 100%;
 }
 
 #yoga-info p {
     text-align: center;
     font-size: xx-large;
-}
-
-#video-about-heading {
-    position: center;
 }
 
 .center {
@@ -345,13 +337,11 @@ footer {
     #sign-up {
         display: table;
         color: black;
-        font: black
     }
 
     form.form-example {
         display: table;
         color: black;
-        font: black
     }
 
     div.form-example {
