@@ -60,7 +60,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*  Beach image and cover text */
+/*  hero image and cover text */
 
 #hero {
     height: 600px;
@@ -75,7 +75,7 @@ h2 {
 
 }
 
-/*  Club ethos sesction */
+/*  club ethos sesction */
 
 #club-ethos {
     height: 600px;
@@ -112,7 +112,6 @@ h2 {
     text-align: center;
 }
 
-
 #welcome {
     text-align: center;
     margin: 30px 0;
@@ -129,7 +128,6 @@ h2 {
     border-radius: 50%;
     margin: 0 auto;
 }
-
 
 /* times and locations */
 
@@ -169,7 +167,12 @@ h2 {
     margin: 0 auto;
 }
 
-/* Yoga video from youtube */
+#time p {
+    font-size: 2em;
+
+}
+
+/* yoga picture on home page */
 
 #yoga-info {
     padding-top: 50px;
@@ -192,6 +195,13 @@ h2 {
 
 #video-about-heading {
     position: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 /* footer and social networks */
@@ -228,15 +238,13 @@ footer {
     width: 100%;
 }
 
-
-/* Sign up form styles */
+/* sign up form styles */
 
 #sign-up {
     background: rgba(185, 168, 181, 0.658);
     clear: both;
     height: 800px;
 }
-
 
 .contact-form {
     display: block;
@@ -260,11 +268,9 @@ footer {
     width: 100%;
 }
 
+/* media queries */
 
-
-/* Media queries */
-
-/* For different screen sizes */
+/* for different screen sizes */
 
 @media screen and (max-width:1200px) {
     #club-ethos {
@@ -277,7 +283,6 @@ footer {
         padding: 30px 0;
         margin: 0px;
     }
-
 
     #left-about,
     #right-about {
@@ -305,7 +310,7 @@ footer {
     }
 }
 
-/* For different screen sizes at 800px wide and down */
+/* for different screen sizes at 800px wide and down */
 
 @media screen and (max-width: 800px) {
     #photos {
