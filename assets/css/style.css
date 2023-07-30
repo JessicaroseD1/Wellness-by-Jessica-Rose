@@ -253,6 +253,14 @@ footer {
     padding: 5px;
 }
 
+/*  Submitt buttom */
+
+.contact-form #submit-button {
+    width: 98px;
+    height: 42px;
+    border: 2px solid #ccc;
+}
+
 /*  submission thank you message */
 
 #thank-you {
@@ -284,8 +292,7 @@ footer {
         margin: 0px;
     }
 
-    #left-about,
-    #right-about {
+    #left-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -333,30 +340,38 @@ footer {
     }
 }
 
-/* Sign up pages */
+@media screen and (max-width: 376px) {
+    #left-about {
+        width: 100%;
+        float: left;
+        padding-bottom: 39px;
+    }
 
-#sign-up {
-    display: table;
-    color: black;
-    font: black
-}
 
-form.form-example {
-    display: table;
-    color: black;
-    font: black
-}
+    /* Sign up pages */
 
-div.form-example {
-    display: table-row;
-}
+    #sign-up {
+        display: table;
+        color: black;
+        font: black
+    }
 
-label,
-input {
-    display: table-cell;
-    margin-bottom: 10px;
-}
+    form.form-example {
+        display: table;
+        color: black;
+        font: black
+    }
 
-label {
-    padding-right: 10px;
-}
+    div.form-example {
+        display: table-row;
+    }
+
+    label,
+    input {
+        display: table-cell;
+        margin-bottom: 10px;
+    }
+
+    label {
+        padding-right: 10px;
+    }
