@@ -255,7 +255,7 @@ footer {
 
 /*  Submitt buttom */
 
-.contact-form #submit-button {
+.submit-button-style {
     width: 98px;
     height: 42px;
     border: 2px solid #ccc;
