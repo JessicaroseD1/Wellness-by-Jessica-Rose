@@ -253,14 +253,6 @@ footer {
     padding: 5px;
 }
 
-/*  Submitt buttom */
-
-.submit-button-style {
-    width: 98px;
-    height: 42px;
-    border: 2px solid #ccc;
-}
-
 /*  submission thank you message */
 
 #thank-you {
@@ -375,3 +367,4 @@ footer {
     label {
         padding-right: 10px;
     }
+}
