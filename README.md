@@ -38,8 +38,6 @@ As well as the main page being engaging I inputted a gallery page which is meant
 
 The third page is where they can submit their name and email and then to hit the submit button which will take them to another page and thank them for submitting and that someone will be in touch with them soon. These pages were designed to be simple and to the point but still being conherent throughout.
 
-<!--input message about the responsive on different devices. It may not be responsive, you may need to mention that the table is not -->
-
 ### Imagery
 
 The images are carefully chosen to set the tone of happiness and that yoga can be for any ages and also refelct the core values of the website that being mind, body and health. These three principles among many should be applied from our childhood into our older years. I have hopefully demonstarted this through the choices of my gallery.
@@ -54,9 +52,7 @@ The main colours that have been used throughout are a variations of earth tones.
 
 Colour palette generated using [Coolors.co](https://coolors.co/):
 
-![colour scheme used in website](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/tree/main)
-
-<!-- Insert colour picture below -->
+![colour scheme for website](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/colour-scheme.png)
 
 ### Typography
 
@@ -114,43 +110,33 @@ The footer section includes links to the social media sites as well as my own Gi
 - The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/).
 - The website uses icons from [Font Awesome](https://fontawesome.com/).
 - The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website loads quickly.
-- The colour palette were generated with [Coolors.co](https://coolors.co/).
+- The colour palette were generated with [Coolors.co](https://coolors.co/). <!-- unable to upload screenshot -->
 - [Grammarly](https://app.grammarly.com/) was used to fix grammatical errors across the website. <!-- YOU NEED TO DO THIS YET-->
 
 ## Testing
 
+Regular testing was carried throught the process of building this website. Areas in which I had tested the website. As well as the coding validation programme I would check all the links that would have been added to see if they would take me to the correct page. For example if you was to hit the submit button would it open up in a separate page. If it did not I would then have to go back over the html pages and check for instance if they were active.
+
 ### Code Validation
 
-The website was fully validated to ensure there were no syntax errors. The official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used for the validation and no errors were found.<br>
+The website was fully validated to ensure there were no syntax errors. The official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used for the validation and no errors were found.
 
-Validation result for index.html:<br>
+<! -- input
 
-<!-- INSERT PHOTO OF THESE FOR PROOF -->
+## _Deployment_
 
-Validation result for thank-you.html:
-
-<!-- INSERT PHOTO OF THESE FOR PROOF -->
-
-Validation result for style.css:
-
-<!-- INSERT PHOTO OF THESE FOR PROOF -->
-
-<! -- input 
-
-## *Deployment* ##
-
-*Github*
+_Github_
 
 This project is deployed using GitHub pages using the following process,
 
-*Deploying a GitHub Repository via GitHub Pages*
+_Deploying a GitHub Repository via GitHub Pages_
 
 1. Navigate to the "Settings" tab in the GitHub repository.
 2. Select "Pages" from the menu on the left.
 3. Under the "Source" section, select "Deploy from a branch" and "Branch: main." Click on "Save."
 4. GitHub takes a short while to publish the website. Refresh the page, if not done automatically, and once the website is deployed, the URL will be displayed.
 
-*Forking the Github Repository*
+_Forking the Github Repository_
 
 You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
 
@@ -158,11 +144,11 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 2. At the top of the page to the right, under your account, click the Fork button.
 3. You will now have a copy of the repository in your GitHub account.
 
-*Making a Local Clone*
+_Making a Local Clone_
 
 1. Find the GitHub Repository.
 2. Click the Code button
 3. Copy the link shown.
 4. In Gitpod, change the directory to the location you would like the cloned directory to be located.
 5. Type git clone, and paste the link you copied in step 3.
-6. Press Enter  to have the local clone created.
+6. Press Enter to have the local clone created.
