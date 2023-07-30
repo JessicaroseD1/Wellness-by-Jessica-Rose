@@ -72,21 +72,29 @@ Featured on all HTML pages, the fully responsive navigation bar has the same des
 
 When hovering over the Gallery and Sign up sections with the cursor, the cursor will change to the hand pointer to indicate that this is a button. You will also notice that when the hand icon is hoovering over that part of the section that it appears to be underlined emphasisng that this is the section that you are going to be taken to. That being said, when you are on the desired page the section will remain underlined so that you as the user will know what page you are on. I also made sure that for consistency to the header the font spacing inbetween the letters was consistent which was set at 4px. Over all having the navigation bar underlined and having the hand pointer are brilliant visual ques for the user to have.
 
+![home underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/home-navigation-bar.png)
+
+![home underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/gallery-navigation-bar.png
+
+![home underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/sign-up-navigation-bar.png)
+![home underli
+ned](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/)
+
 #### Gallery Page
 
 This page is the most engaging page within the website. It uses a range of photos, from people, to their age to their abilities. The gallery has been created with a coloumn count of 4. The aim was to create the design so that the pictures do not appear to have any space between them. However In the furture I would like to apply a baorder to the pictures to create the effect of space and have the page more streamline and potentially with a column count of 3.
 
-![gallery page](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/navigation-bar.png)
+![navigation bar](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/navigation-bar.png)
 
 #### Form page
 
 The form page consists of three input fields where they have to fill in their details inorder to complete the process. I have achieved this outcome by inputting a required atribute. Once you have filled out all of the required information you are then able to press submit where you are taken to a separate page and are welcomed with a thank you message.
 
+![gallery page](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/gallery-page.png)
+
 #### Footer
 
 The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links open in a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
-
-<!-- insert photo-->
 
 ### Features Left to Implement
 
