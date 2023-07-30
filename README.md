@@ -54,6 +54,8 @@ The main colours that have been used throughout are a variations of earth tones.
 
 Colour palette generated using [Coolors.co](https://coolors.co/):
 
+![colour scheme used in website](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/tree/main)
+
 <!-- Insert colour picture below -->
 
 ### Typography
@@ -95,7 +97,6 @@ The footer section includes links to the social media sites as well as my own Gi
 ### Features Left to Implement
 
 - At the moment when viewing the responsivness of the devices in Dev tolls if it is below 334 then the picture on the front page looses its resoloution and the text also overlaps or becomes hidden.
--
 - website on a mobile device the word nourishment does not fit on the screen properly. Therefore I would need to look at the coding again and see if I can get the word to fit nicely on the page.
 - The video on the home page is very wide, i would of prefered the video to be smaller and more stream line, however I found that then applying the media screen settings it was struggling with having the video different sizes on the different media screens. THerefore this was the only way that I could find to get it to look ok on all media outlets. Therefore I would need to do further research into seeing how I could get this to look more user friendly.
 - I would also liked to have put in separate pages dedicated to Mind, Body and Nourishemnt so that the user could have some background knowledge on the core values of the website.
@@ -109,8 +110,7 @@ The footer section includes links to the social media sites as well as my own Gi
 - [GitHub](https://github.com/) was used to store the codes and deploy the website.
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used when adjusting the objects in the website for different screen sizes.
 - The website was fully validated using [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
-- [Balsamiq](https://balsamiq.com/) was used to generate wireframes. <!-- YOU NEED TO DO THIS YET-->
-- [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes. <!-- YOU NEED TO DO THIS YET-->
+- [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
 - The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/).
 - The website uses icons from [Font Awesome](https://fontawesome.com/).
 - The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website loads quickly.
@@ -135,42 +135,34 @@ Validation result for style.css:
 
 <!-- INSERT PHOTO OF THESE FOR PROOF -->
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<! -- input 
 
-Welcome,
+## *Deployment* ##
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+*Github*
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+This project is deployed using GitHub pages using the following process,
 
-## Codeanywhere Reminders
+*Deploying a GitHub Repository via GitHub Pages*
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+1. Navigate to the "Settings" tab in the GitHub repository.
+2. Select "Pages" from the menu on the left.
+3. Under the "Source" section, select "Deploy from a branch" and "Branch: main." Click on "Save."
+4. GitHub takes a short while to publish the website. Refresh the page, if not done automatically, and once the website is deployed, the URL will be displayed.
 
-`python3 -m http.server`
+*Forking the Github Repository*
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+1. Find the GitHub repository.
+2. At the top of the page to the right, under your account, click the Fork button.
+3. You will now have a copy of the repository in your GitHub account.
 
-`http_server`
+*Making a Local Clone*
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+1. Find the GitHub Repository.
+2. Click the Code button
+3. Copy the link shown.
+4. In Gitpod, change the directory to the location you would like the cloned directory to be located.
+5. Type git clone, and paste the link you copied in step 3.
+6. Press Enter  to have the local clone created.
