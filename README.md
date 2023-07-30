@@ -68,6 +68,8 @@ Featured on all HTML pages, the fully responsive navigation bar has the same des
 
 #### Navigation bar for different pages
 
+![colour scheme for website](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/navigation-bar.png)
+
 <!-- Insert picutre of navigation pane here -->
 
 When hovering over the Gallery and Sign up sections with the cursor, the cursor will change to the hand pointer to indicate that this is a button. You will also notice that when the hand icon is hoovering over that part of the section that it appears to be underlined emphasisng that this is the section that you are going to be taken to. That being said, when you are on the desired page the section will remain underlined so that you as the user will know what page you are on. I also made sure that for consistency to the header the font spacing inbetween the letters was consistent which was set at 4px. Over all having the navigation bar underlined and having the hand pointer are brilliant visual ques for the user to have.
