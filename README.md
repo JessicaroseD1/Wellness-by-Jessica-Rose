@@ -75,3 +75,21 @@ When hovering over the Gallery and Sign up sections with the cursor, the cursor 
 ![gallery underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/gallery-navigation-bar.png)
 
 ![sign up underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/sign-up-navigation-bar.png)
+
+#### Gallery Page
+
+This page is the most engaging page on the website. It uses a range of photos, from people to their age to their abilities. The gallery has been created with a column count of 4. The aim was to create the design so that the pictures do not appear to have any space between them. However, in the future, I would like to apply a border to the pictures to create the effect of space and have the page more streamlined and potentially with a column count of 3.
+
+![gallery page navigation](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/gallery-page.png)
+
+#### Form page
+
+The form page consists of three input fields where they have to fill in their details in order to complete the process. I have achieved this outcome by inputting a required attribute. Once you have filled out all of the required information you are then able to press submit where you are taken to a separate page and are welcomed with a thank you message.
+
+![gallery page navigation](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/prompt-message-for-details.png
+
+#### Footer
+
+The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links open in a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
+
+![footer icons](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/docs-imaage-footer.png)
