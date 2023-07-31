@@ -71,3 +71,5 @@ When hovering over the Gallery and Sign up sections with the cursor, the cursor 
 4px. Having the navigation bar underlined and having the hand pointer are brilliant visual cues for the user to have.
 
 ![home underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/home-navigation-bar.png)
+
+![gallery underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/gallery-navigation-bar)
