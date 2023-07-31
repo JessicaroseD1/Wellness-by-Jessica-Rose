@@ -86,7 +86,7 @@ This page is the most engaging page on the website. It uses a range of photos, f
 
 The form page consists of three input fields where they have to fill in their details in order to complete the process. I have achieved this outcome by inputting a required attribute. Once you have filled out all of the required information you are then able to press submit where you are taken to a separate page and are welcomed with a thank you message.
 
-![gallery page navigation](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/prompt-message-for-details.png
+![gallery page navigation](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/prompt-message-for-details.png)
 
 #### Footer
 
