@@ -72,4 +72,6 @@ When hovering over the Gallery and Sign up sections with the cursor, the cursor 
 
 ![home underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/home-navigation-bar.png)
 
-![gallery underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/gallery-navigation-bar)
+![gallery underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/gallery-navigation-bar.png)
+
+![sign up underlined](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/sign-up-navigation-bar.png)
