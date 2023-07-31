@@ -93,3 +93,31 @@ The form page consists of three input fields where they have to fill in their de
 The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links open in a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
 
 ![footer icons](https://github.com/JessicaroseD1/Wellness-by-Jessica-Rose/blob/main/docs/docs-imaage-footer.png)
+
+### Features Left to Implement
+
+- Add in a back to home button on the sign up form.
+
+## Technologies Used
+
+- The website was created with [HTML](https://html.spec.whatwg.org/).
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) was used to add styling to the website.
+- [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes.
+- [Git](https://git-scm.com/) was used for version control and tracked changes in the codes.
+- [GitHub](https://github.com/) was used to store the codes and deploy the website.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used when adjusting the objects in the website for different screen sizes
+- The website was fully validated using [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+- [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
+- The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/).
+- The website uses icons from [Font Awesome](https://fontawesome.com/).
+- The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website loads quickly.
+- The colour palette was generated with [Coolors.co](https://coolors.co/).
+- [Grammarly](https://app.grammarly.com/) was used to fix grammatical errors across the website.
+
+## Testing
+
+Regular testing was carried throughout the process of building this website. Areas in which I had tested the website, as well as the coding validation programme, was that I would check all the links that would have been implemented to see if they would take me to the correct page. For example, if you were to hit the submit button would it open up on a separate page. If it did not I would then have to go back over the html pages and check for instance if they were active.
+
+### Code Validation
+
+The website was fully validated to ensure there were no syntax errors. The official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used for the validation and no errors were found.
