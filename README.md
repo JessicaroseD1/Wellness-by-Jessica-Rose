@@ -121,3 +121,78 @@ Regular testing was carried throughout the process of building this website. Are
 ### Code Validation
 
 The website was fully validated to ensure there were no syntax errors. The official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used for the validation and no errors were found.
+
+### Responsiveness
+
+- Responsiveness design tests were executed using Chrome Dev Tools. I found that if the site had to go below 320px then the heading health would not be aligned and also the sections would overlap.
+- I also would check the link from mobile phones to see how the website was responsive, from looking on an Iphone XS the website seemed to be in good working order.
+
+### Bugs to fix
+
+- At the moment when viewing the responsiveness of the devices in Dev tolls if it is below 334 then the picture on the front page loses its resoloution and the text also overlaps or becomes hidden. This is something that I would need to further investigate.
+- There is also a line under the submit button that I would once again need to investigate further as to why it is there
+
+### User Stories
+
+- _I would like to feel engaged with the website through the use of images and colours._<br>
+
+  The website is engaging through the use of pictures. The pictures chosen for the website are varied and showcase what yoga is all about. The colours are consistent and earthly tones whilst being neutral, Therefore they are not demanding and loud to create high energy.
+
+- _I would like to be able to navigate easily through the website._
+
+  The layout of the website is simple and consistent it has separate sections which are clearly laid out. The user can easily navigate to a specific section of the website from the navigation bar.
+
+  When the user submits a message, the second page opens to thank them for their message.
+
+- _I would like to be left feeling that I want to sign up to learn more._<br>
+
+  The website has had a good introduction into what the core values of for Wellness with Jessica Rose are and through the gallery images, the would be able to see the health benefits of participating in yoga. Therefore this would hopefully draw the user in and want to learn more.
+
+- _I would like to be able to leave my details and be assured someone will be in contact._<br>
+
+  The website contains a section in which if they choose to they can leave their full name and email address so that someone can get in contact.
+
+## _Deployment_
+
+_Github_
+
+This project is deployed using GitHub pages using the following process,
+
+_Deploying a GitHub Repository via GitHub Pages_
+
+1. Navigate to the "Settings" tab in the GitHub repository.
+2. Select "Pages" from the menu on the left.
+3. Under the "Source" section, select "Deploy from a branch" and "Branch: main." Click on "Save."
+4. GitHub takes a short while to publish the website. Refresh the page, if not done automatically, and once the website is deployed, the URL will be displayed.
+
+_Forking the Github Repository_
+
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
+
+1. Find the GitHub repository.
+2. At the top of the page to the right, under your account, click the Fork button.
+3. You will now have a copy of the repository in your GitHub account.
+
+_Making a Local Clone_
+
+1. Find the GitHub Repository.
+2. Click the Code button
+3. Copy the link shown.
+4. In Gitpod, change the directory to the location you would like the cloned directory to be located.
+5. Type git clone, and paste the link you copied in step 3.
+6. Press Enter to have the local clone created.
+
+## Credits
+
+### Contents
+
+- Contents of the information on the website were from Harvard Medical School.
+- Quote for the sign-up page was found on Google and was quoted by a Jigar Gor.
+
+### Media
+
+- Images used were sourced from [pixabay.com](https://pixabay.com/).
+
+## Acknowledgements
+
+I would like to thank, [Harry Dhillon](https://github.com/Harry-Leepz), for the guidance and encouragement given throughout the project. Harry as extensive knowledge and has been a great source of help to which I have been able to refine the website to be user-friendly.
